@@ -1,10 +1,10 @@
 #function to print a list of names
-def func(list):
-    for name in list:
+def func(names):
+    for name in names:
         print(name)
-    return func
+   
 
 
 list1=['carol','ann','jay','rose']
-print(func(list1))
+func(list1)
 
